@@ -1,0 +1,238 @@
+/*-----------HEADER---------------*/
+.navbar {
+    background-color: red; 
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar form input {
+    width: 400px;
+}
+
+.cart {
+    margin-right: 20px;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.cart a {
+    color: gray;
+    text-decoration: none;
+}
+
+.cart a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.login {
+    width: 120px;
+    height: 38px;
+    cursor: pointer;
+    color: #28a745;
+    border: 1px solid #28a745;
+    background-color: #341414;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #28a745;
+}
+
+/*------ Slide-bar --------- */
+
+.slide-bar {
+    margin: 30px 0px;
+}
+
+.slide-bar h3 {
+    text-align: center;
+}
+
+.slide-bar .icon {
+    height: 100px;
+    margin: 20px 100px;
+    padding: 0px 100px;
+    border: 1px solid black;
+    border-radius: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.icon i {
+    font-size: 30px;
+    width: 65px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.checked {
+    -webkit-animation: slide 10s ease infinite;
+    background-color: #341414;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    z-index: 1;
+}
+
+@-webkit-keyframes slide {
+    0% {
+        left: 34px;
+    }
+    50% {
+        left: 699px;
+    }
+}
+
+.icon hr {
+    width: 44%;
+    background-color: black;
+}
+
+/* ----------Product--------- */
+
+.product {
+    padding: 0px 100px;
+}
+
+.product table {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.product tr {
+    border-bottom:1px solid black ;
+}
+
+.product tr:nth-child(even) {
+    background-color: rgb(199 178 164);
+}
+
+.product a {
+    color: white;
+    background: black;
+    display: inline-block;
+    width: 45px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 11px;
+    transition: 0.3s ease;
+}
+
+.product a:hover {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+}
+
+.price {
+    margin: 30px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price .continue {
+    width: 200px;
+    border-radius: 5px;
+    background-color: #28a745;
+    border: 1px solid #341414;
+}
+
+.price .continue a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.price .pay{
+    width: 150px;
+    color: aliceblue;
+    background-color: #341414;
+    border: 1px solid #341414;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price .pay a {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* ---------FOOTER---------- */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px; 
+    position: relative;
+    display: flex;
+}
+
+.footer .background-footer {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-size: contain;
+}
+
+.footer .introduce {
+    position: absolute;
+    left: 30px;
+    top:0;
+    z-index: 1;
+}
+
+.introduce .hotline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.footer .app {
+    position: absolute;
+    right: 500px;
+    top: 0;
+    font-weight: bold;
+    display: flex;
+}
+
+.app-logo {
+    width: 250px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/originals/18/b8/03/18b8035a7933b9323f2d8f82cf400aab.jpg);
+    background-size: cover;
+}
+
+hr {
+    background-color: black;
+}

@@ -1,0 +1,268 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+/*-----------HEADER---------------*/
+.navbar {
+    background-color: red; 
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar form input {
+    width: 400px;
+}
+
+.cart {
+    margin-right: 20px;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.cart a {
+    color: gray;
+    text-decoration: none;
+}
+
+.cart a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.login {
+    width: 120px;
+    height: 38px;
+    cursor: pointer;
+    color: #28a745;
+    border: 1px solid #28a745;
+    background-color: #341414;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #28a745;
+}
+
+/*------ Slide-bar --------- */
+
+.slide-bar {
+    margin: 30px 0px;
+}
+
+.slide-bar h3 {
+    text-align: center;
+}
+
+.slide-bar .icon {
+    height: 100px;
+    margin: 20px 100px;
+    padding: 0px 100px;
+    border: 1px solid black;
+    border-radius: 80px 0px 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.icon i {
+    font-size: 30px;
+    width: 65px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.checked {
+    -webkit-animation: slide 10s ease infinite;
+    background-color: #341414;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    z-index: 1;
+}
+
+@-webkit-keyframes slide {
+    0% {
+        left: 800px;
+    }
+    50% {
+        left: 1460px;
+    }
+}
+
+.icon hr {
+    width: 44%;
+    background-color: black;
+}
+
+/* -----------InforClient---------- */
+
+/* Left */
+.aboutInfor {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0px 100px;
+    height: 600px;
+}
+
+.aboutInfor .left {
+    width: 50%;
+    height: 100%;
+}
+
+.left .top input {
+    padding-left: 10px;
+    width: 350px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.left .bot input {
+    padding-left: 10px;
+    width: 725px;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.delivery {
+    width: 725px;
+    height: 30px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.delivery i {
+    color: red;
+    margin: 0px 10px;
+}
+
+.delivery p {
+    display: inline-block;
+    margin: 0px;
+    color: red;
+}
+
+/* Right */
+.aboutInfor .right {
+    width: 50%;
+    height: 500px;
+}
+
+.right table {
+    width: 90%;
+}
+
+.right .tbproduct {
+    height: 500px;
+    text-align: center;
+    overflow-y: scroll;
+}
+
+.right .tbproduct table {
+    width: 100%;
+}
+
+.btnAccept {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    font-size: 20px;
+    color: #ff9933;
+    border-radius: #ff9933;
+    width: 300px;
+    height: 50px;
+    background-color: #341414;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btnAccept:hover {
+    text-decoration: none;
+    color: #341414;
+    background-color: #f0e68c;
+}
+
+/* ---------FOOTER---------- */
+
+.footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px; 
+    position: relative;
+    display: flex;
+}
+
+.footer .background-footer {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-size: contain;
+}
+
+.footer .introduce {
+    position: absolute;
+    left: 30px;
+    top:0;
+    z-index: 1;
+}
+
+.introduce .hotline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.footer .app {
+    position: absolute;
+    right: 500px;
+    top: 0;
+    font-weight: bold;
+    display: flex;
+}
+
+.app-logo {
+    width: 250px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/originals/18/b8/03/18b8035a7933b9323f2d8f82cf400aab.jpg);
+    background-size: cover;
+}
+
+hr {
+    background-color: black;
+}
+
+
+/* Màu của thế toàn: #ff9933 */

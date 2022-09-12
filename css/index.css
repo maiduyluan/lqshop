@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body {
+    position: relative;
+}
+
+/*-----------HEADER---------------*/
+.navbar {
+    background-color: #341414;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+}
+
+.navbar form input {
+    width: 400px;
+}
+
+.cart {
+    margin-right: 20px;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+.cart a {
+    color: gray;
+    text-decoration: none;
+}
+
+.cart a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.login {
+    width: 120px;
+    height: 38px;
+    cursor: pointer;
+    color: #28a745;
+    border: 1px solid #28a745;
+    background-color: #341414;
+    margin-left: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s ease;
+}
+
+.login:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #28a745;
+}
+
+/*-------------SLIDE--------------*/
+
+.slidding {
+    width: 100%;
+    height: 870px;
+    overflow: hidden;
+}
+
+.slide-wrapper {
+    height: 100%;
+    width: 100%;
+    -webkit-animation: slide 2s ease ;
+}
+
+.slide {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+@-webkit-keyframes slide {
+    0% {margin-top: 1000px;}
+    70% {margin-bottom: 2000px;}
+}
+
+.slidding .slide1 {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://file.hstatic.net/1000402464/collection/banner_web-new-1-01_71fa3e24453a459c8b3f641f53696e0a.jpg);
+    background-size: cover;
+}
+
+.title-nam{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #341414;
+}
+
+.mainpage {
+    width: 100%;
+    height: 500px;
+    color: black;
+}
+
+.mainpage .item {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.mainpage .item .content-image {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mainpage .item .image1 {
+    width: 80%;
+    height: 90%;
+    background-image: url(https://pubcdn.ivymoda.com/files/product/thumab/1600/2022/05/27/69c25add4a534192f8b2c05a30ca7bc1.JPG);
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.mainpage .item .image1:hover {
+    background-image: url(https://pubcdn.ivymoda.com/files/product/thumab/1600/2022/05/27/f652f2ab59733b4c51d149e0af61e7fb.JPG);
+}
+
+.mainpage .item .image2 {
+    width: 80%;
+    height: 90%;
+    background-image: url(https://pubcdn.ivymoda.com/files/product/thumab/1600/2021/08/04/1c40144d4e1630ce289af254614c8a71.JPG);
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.mainpage .item .image2:hover {
+    background-image: url(https://pubcdn.ivymoda.com/files/product/thumab/1600/2021/08/04/b6bb8439e927ebb7081ad20c90791a90.JPG);
+}
+
+.mainpage .item .image3 {
+    width: 80%;
+    height: 90%;
+    background-image: url(https://pubcdn.ivymoda.com/files/product/thumab/1600/2021/09/10/a70814c885a3ff3a325534e0e742691b.JPG);
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.mainpage .item .image3:hover {
+    background-image: url(https://pubcdn.ivymoda.com/files/product/thumab/1600/2021/09/10/f707d224ef8307c25b501c9d655a71c3.JPG);
+}
+
+.mainpage .item .image4 {
+    width: 80%;
+    height: 90%;
+    background-image: url(https://pubcdn.ivymoda.com/files/product/thumab/1600/2021/06/02/8d213cb8171f990063008ad276a3bd06.jpg);
+    background-size: cover;
+    transition: 0.3s ease;
+}
+
+.mainpage .item .image4:hover {
+    background-image: url(https://pubcdn.ivymoda.com/files/product/thumab/1600/2021/06/02/8d08f8986dd084d0d3b7188e4bf74c1e.jpg);
+}
+
+.more {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.more a {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #28a745;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #341414;
+    color: #28a745;
+}
+
+.more a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: #28a745;
+    transition: ease 0.3s;
+}
+
+ /*-------- Footer--------- */
+.footer {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px; 
+    position: relative;
+    display: flex;
+}
+
+.footer .background-footer {
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-size: contain;
+}
+
+.footer .introduce {
+    position: absolute;
+    left: 30px;
+    top:0;
+    z-index: 1;
+}
+
+.introduce .hotline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 20px 0px 20px 0px;
+}
+
+.footer .app {
+    position: absolute;
+    right: 500px;
+    top: 0;
+    font-weight: bold;
+    display: flex;
+}
+
+.app-logo {
+    width: 250px;
+    height: 200px;
+    background-image: url(https://i.pinimg.com/originals/18/b8/03/18b8035a7933b9323f2d8f82cf400aab.jpg);
+    background-size: cover;
+}
+
+hr {
+    background-color: black;
+}
+
+
+/* Mobile */
+
+@media (max-width: 400px) {
+
+    .navbar form input {
+        margin-top: 10px;
+        width: 250px;
+    }
+
+    .navbar form button {
+        margin-top: 10px;
+    }
+
+    .navbar .login {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .slidding {
+        width: 100%;
+        height: 200px;
+    }
+
+    .mainpage {
+        height: 100%;
+    }
+
+    .mainpage .item {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 10px;
+        padding: 0px 20px 0px 20px;
+    }
+
+    .mainpage .item .image1 {
+        width: 70%;
+        height: 100%;
+    }
+}
